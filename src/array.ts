@@ -13,7 +13,7 @@ array3 = ['1', 2, false, {}, ['aa', 11]];
 
 /* 
 Tuples
-Adalah sebuah array yang tipe ny bisa berbagai macam tipe data tetapi terbatas.
+Adalah sebuah array yang isi bisa berbagai macam tipe data tetapi terbatas.
 */
 
 let biodata: [string, number];
