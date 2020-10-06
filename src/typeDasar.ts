@@ -14,3 +14,12 @@ age = 17;
 // Boolean
 let isMerried: boolean;
 isMerried = false;
+
+/*
+Any
+Khusus untuk tipe data any dalam typescript ini, kita bisa memasukan berbagai macam tipe data. Seperti javascript pada umum nya.
+*/
+let heroes: any = 'Khalid bin walid';
+heroes = 10;
+heroes = [];
+heroes = {};
