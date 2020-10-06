@@ -1,4 +1,4 @@
-// Tipe data return function
+// Tipe data pada return function
 
 // Mengembalikan data yang harus berupa string
 function getName(): string {
@@ -18,3 +18,11 @@ function printName(): void {
 }
 
 printName();
+
+// Tipe data pada argument function
+function multiply(val1: number, val2: number): number {
+  return val1 * val2;
+}
+
+const result = multiply(10, 2);
+console.log(result);
