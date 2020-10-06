@@ -26,3 +26,10 @@ function multiply(val1: number, val2: number): number {
 
 const result = multiply(10, 2);
 console.log(result);
+
+// Dalam typescript kita bisa membuat tipe data custom ( yang kita inginkan )
+type Tambah = (val1: number, val2: number) => number;
+
+const Add = (val1: number, val2: number): number => {
+  return val1 + val2;
+};
