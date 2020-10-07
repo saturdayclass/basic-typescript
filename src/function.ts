@@ -33,3 +33,11 @@ type Tambah = (val1: number, val2: number) => number;
 const Add = (val1: number, val2: number): number => {
   return val1 + val2;
 };
+
+// Default Parameter
+const fullName = (first: string, last: string = 'Muhammad'): string => {
+  return `${first} ${last}`;
+};
+
+console.log(fullName('Raihan'));
+// Raihan Muhammad
