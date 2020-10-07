@@ -27,6 +27,7 @@ class Admin extends User {
   read: boolean = true;
   write: boolean = true;
   phone: string;
+  private _email: string = '';
 
   constructor(name: string, age: number, phone: string) {
     super(name, age);
@@ -36,8 +37,18 @@ class Admin extends User {
   getRole(): { read: boolean; write: boolean } {
     return { read: this.read, write: this.write };
   }
+
+  // Biasanya digunakan untuk memvalidasi data
+  set email(value: string) {
+    this._email = value;
+  }
+
+  // Untuk mengambil data
+  get email(): string {
+    return this._email;
+  }
 }
 
 let admin = new Admin('Raihan', 19, '628737367676');
-console.log(admin.getName());
-console.log(admin.getRole());
+admin.email = 'admin@kepo.com';
+console.log(admin.email);
