@@ -23,3 +23,13 @@ let heroes: any = 'Khalid bin walid';
 heroes = 10;
 heroes = [];
 heroes = {};
+
+/* 
+Union Type
+Kita bisa menentukan suatu variable itu mempunyai type data lebih dari satu 
+*/
+
+let phone: number | string;
+
+phone = 6287720213121;
+phone = '092323232';
