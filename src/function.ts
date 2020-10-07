@@ -40,4 +40,15 @@ const fullName = (first: string, last: string = 'Muhammad'): string => {
 };
 
 console.log(fullName('Raihan'));
-// Raihan Muhammad
+//Hasil: Raihan Muhammad
+
+/* 
+Optional Parameter
+Ketika kita memberikan optional parameter seperti halnya val2 di bawah ini,
+maka otomatis val2 akan menjadi undifined ketika kita tidak memberikan nilainya.
+*/
+const getGender = (val1: string, val2?: string): string => {
+  return val1 + ' ' + val2;
+};
+
+console.log(getGender('Male'));
