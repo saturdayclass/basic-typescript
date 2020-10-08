@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "dev": "nodemon ./build/genericClass.js"
+    "dev": "nodemon ./build/studyCase/Product.js"
   },
   "repository": {
     "type": "git",
