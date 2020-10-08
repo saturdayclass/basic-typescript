@@ -57,5 +57,9 @@ class Admin extends User {
   }
 }
 
+// let admin = new Admin('Raihan', 19, '628737367676');
+// admin.email = 'admin@kepo.com';
+// console.log(admin.email);
+
 let admin = Admin.getNameRole('Kepo');
 console.log(admin);
